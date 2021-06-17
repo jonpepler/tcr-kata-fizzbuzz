@@ -1,3 +1,3 @@
-import { kata } from './kata'
+import { arrayBuilder } from './kata'
 
-console.log(kata())
+console.log(arrayBuilder())
