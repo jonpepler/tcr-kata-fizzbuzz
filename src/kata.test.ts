@@ -21,3 +21,8 @@ it('returns fizz for elements divisible by 3', () => {
   expect(kata(3)[2]).toEqual('fizz')
   expect(kata(6)[5]).toEqual('fizz')
 })
+
+it('returns buzz for elements divisible by 5', () => {
+  expect(kata(5)[4]).toEqual('buzz')
+  expect(kata(10)[9]).toEqual('buzz')
+})
