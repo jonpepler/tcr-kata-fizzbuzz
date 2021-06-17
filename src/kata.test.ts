@@ -1,4 +1,4 @@
-import { arrayBuilder } from './kata'
+import { kata, arrayBuilder } from './kata'
 
 it('returns an array for undefined', () => {
   const result = arrayBuilder()
@@ -15,4 +15,8 @@ it('returns array of length n', () => {
 it('returns an array of elements 1 to n', () => {
   expect(arrayBuilder(1)).toEqual(expect.arrayContaining([1]))
   expect(arrayBuilder(5)).toEqual(expect.arrayContaining([1, 2, 3, 4, 5]))
+})
+
+it('returns fizz for elements divisible by 3', () => {
+  expect(kata(3)[2]).toEqual('fizz')
 })
