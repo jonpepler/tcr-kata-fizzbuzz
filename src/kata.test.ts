@@ -11,3 +11,7 @@ it('returns array of length n', () => {
   expect(kata(50)).toHaveLength(50)
   expect(kata(113)).toHaveLength(113)
 })
+
+it('returns an array of elements 1 to n', () => {
+  expect(kata(1)).toEqual(expect.arrayContaining([1]))
+})
