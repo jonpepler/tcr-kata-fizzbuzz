@@ -14,4 +14,5 @@ it('returns array of length n', () => {
 
 it('returns an array of elements 1 to n', () => {
   expect(kata(1)).toEqual(expect.arrayContaining([1]))
+  expect(kata(5)).toEqual(expect.arrayContaining([1, 2, 3, 4, 5]))
 })
