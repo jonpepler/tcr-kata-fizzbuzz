@@ -19,4 +19,5 @@ it('returns an array of elements 1 to n', () => {
 
 it('returns fizz for elements divisible by 3', () => {
   expect(kata(3)[2]).toEqual('fizz')
+  expect(kata(6)[5]).toEqual('fizz')
 })
