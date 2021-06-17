@@ -1,1 +1,1 @@
-export const kata = (): string => 'result'
+export const kata = (): [] => []

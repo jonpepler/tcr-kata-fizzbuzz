@@ -1,6 +1,6 @@
 import { kata } from './kata'
 
-it('can be called', () => {
+it('returns an array for undefined', () => {
   const result = kata()
-  expect(result).toBe('result')
+  expect(result).toHaveLength(0)
 })
